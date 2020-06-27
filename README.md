@@ -1,4 +1,4 @@
-# robotics blog
+# robotics blog :rocket:
 
 * is a web page aimed at knowledge and explanation of the different factors in robotics
 
