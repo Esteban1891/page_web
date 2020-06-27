@@ -1,41 +1,40 @@
-body{
+body {
     display: flex;
     flex: auto;
     flex-direction: column;
-    background-color: ivory;
+    background-color: white;
 }
 
-header{
+header {
     display: flex;
     flex-direction: row;
     align-items: center;
     font-family: 'Times New Roman', Times, serif;
 }
 
-main{
+main {
     display: flex;
     flex-direction: row;
-    
-
 }
 
-article{
+article {
     flex: 2;
     overflow-y: auto;
     padding: 50px;
-    
 }
 
-
-h1, h2, h3, h4{
+h1,
+h2,
+h3,
+h4 {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
     font-family: 'Times New Roman', Times, serif;
-    color: #000000 ;
+    color: #000000;
 }
 
-p{
+p {
     font-family: 'Times New Roman', Times, serif;
     padding-top: 10px;
     text-align: center;
@@ -43,55 +42,52 @@ p{
     line-height: 1.6;
 }
 
-hr{
+hr {
     margin-top: 50px;
     width: 80%;
     color: #000000
 }
 
-aside{
+aside {
     flex: 1;
     overflow-y: auto;
 }
 
-footer{
+footer {
     display: flex;
     justify-content: center;
 }
 
-.img-header{
+.img-header {
     width: 10%;
     padding-right: 10%;
 }
 
-.nav-mod{
+.nav-mod {
     font-size: 20%;
     padding-right: 10%;
-    
-    
-    
 }
 
-.center{
+.center {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-    
-
 }
 
-.nav-mod ul li a:hover{
+.nav-mod ul li a:hover {
     color: #1a1b1d;
-    border-bottom: 2px solid #1a1b1d ;
+    border-bottom: 2px solid #1a1b1d;
 }
 
-.list-benefits, ul, li{
+.list-benefits,
+ul,
+li {
     font-family: 'Times New Roman', Times, serif;
     padding-top: 20px;
     font-size: 18px;
 }
 
-.centrado{
-    margin:10px auto;
-    display:block;
+.centrado {
+    margin: 10px auto;
+    display: block;
 }
